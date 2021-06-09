@@ -32,6 +32,13 @@ namespace ShootingDice
 
             Console.WriteLine("-------------------");
 
+            Player smackTalkingPlayer = new Player();
+            smackTalkingPlayer.Name = "Scumbag Chad";
+
+            player2.Play(smackTalkingPlayer);
+
+            Console.WriteLine("-------------------");
+
             List<Player> players = new List<Player>() {
                 player1, player2, player3, large
             };
